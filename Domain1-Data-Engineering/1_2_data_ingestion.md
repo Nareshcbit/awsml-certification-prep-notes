@@ -14,15 +14,15 @@ In the context of **Machine Learning (ML) workloads**, orchestrating data ingest
 
 ---
 
-### **1. Amazon Kinesis**  
+### **1. Amazon Kinesis Data Streams**  
    - **Job Style:** Streaming  
    - **Description:**  
-     Amazon Kinesis is designed for real-time streaming data. It enables ingestion and processing of large volumes of data with low-latency, making it ideal for real-time analytics and ML workloads.  
+     Amazon Kinesis Data Streams is a service for real-time data ingestion and processing. It allows you to capture and stream data such as video, logs, and IoT data at a large scale.  
    - **Use Cases:**  
-     - Real-time data collection for ML models.  
-     - Processing IoT data, logs, and user activity in real-time.  
+     - Real-time ingestion of data for ML models.  
+     - Collecting and analyzing large amounts of data from IoT devices, website logs, and clickstreams.  
    - **Integration with ML:**  
-     - Kinesis can feed real-time data to Amazon SageMaker for continuous model training and inference.
+     - Kinesis Data Streams can stream data directly to Amazon SageMaker for real-time training or inference of ML models. It can also trigger Lambda functions for real-time data processing before feeding it to a model.
 
 ---
 
@@ -77,7 +77,7 @@ In the context of **Machine Learning (ML) workloads**, orchestrating data ingest
 
 | Service                            | Job Style | Use Case                                                     | Integration with ML                         |
 |------------------------------------|-----------|--------------------------------------------------------------|---------------------------------------------|
-| **Amazon Kinesis**                 | Streaming | Real-time data ingestion for ML models (e.g., IoT, logs)     | Continuous model training and inference     |
+| **Amazon Kinesis Data Streams**    | Streaming | Real-time data ingestion for ML models (e.g., IoT, logs)     | Continuous model training and inference     |
 | **Amazon Kinesis Data Firehose**   | Streaming | Real-time data delivery to S3, Redshift, Elasticsearch       | Delivering data to ML analysis services    |
 | **Amazon EMR**                     | Batch     | Large-scale batch data processing (e.g., Apache Spark)       | Training on large datasets using SparkML   |
 | **AWS Glue**                       | Batch/Streaming | Data transformation and ETL jobs for ML pipelines       | Data preparation for SageMaker and ML models |
