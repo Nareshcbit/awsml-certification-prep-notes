@@ -175,8 +175,4 @@ X_scaled = scaler.fit_transform(X)
 ## 📌 Conclusion
 **Scikit-learn** is a powerful and easy-to-use library for machine learning in Python. It offers a wide range of algorithms for both supervised and unsupervised learning tasks and tools for data preprocessing, model evaluation, and selection.
 
-🔹 **Further Reading**:
-- 📖 [Scikit-learn Documentation](https://scikit-learn.org/)
 ```
-
----
