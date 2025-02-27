@@ -1,4 +1,3 @@
-```markdown
 # Scikit-learn: A Python Library for Machine Learning
 
 ## 📌 Introduction
@@ -179,3 +178,5 @@ X_scaled = scaler.fit_transform(X)
 🔹 **Further Reading**:
 - 📖 [Scikit-learn Documentation](https://scikit-learn.org/)
 ```
+
+---
